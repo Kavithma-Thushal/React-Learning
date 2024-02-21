@@ -4,5 +4,8 @@
   "description": "My 1st React Application",
   "author": "Kavithma Thushal",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "main": "index.js"
 }
