@@ -6,6 +6,10 @@ function App() {
         <div>
             <h1>This is My First React App</h1>
             <PartOne/>
+            <PartOne/>
+            <PartOne/>
+            <PartOne/>
+            <PartOne/>
         </div>
     );
 }
