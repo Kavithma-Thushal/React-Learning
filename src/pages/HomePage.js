@@ -6,6 +6,12 @@ export default function HomePage() {
         <div>
             <Navigation/>
             <Content/>
+
+            {/*<Navigation language="Java"/>
+            <Navigation language="JavaScript"/>
+            <Navigation language="Python"/>
+            <Navigation language="PHP"/>
+            <Navigation language="C++"/>*/}
         </div>
     );
 }
