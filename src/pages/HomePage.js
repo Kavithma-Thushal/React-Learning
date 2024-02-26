@@ -11,7 +11,7 @@ export default function HomePage() {
             <Navigation language="JavaScript"/>
             <Navigation language="Python"/>
             <Navigation language="PHP"/>
-            <Navigation language="C++"/>*/}
+            <Navigation language="C++" lan="C#"/>*/}
         </div>
     );
 }
