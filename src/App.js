@@ -1,15 +1,10 @@
 import React from "react";
-import PartOne from "./components/PartOne";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
     return (
         <div>
-            <h1>This is My First React App</h1>
-            <PartOne/>
-            <PartOne/>
-            <PartOne/>
-            <PartOne/>
-            <PartOne/>
+            <NavBar/>
         </div>
     );
 }
