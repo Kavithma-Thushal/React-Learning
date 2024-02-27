@@ -1,10 +1,10 @@
 import Navigation from "../components/Navigation/Navigation";
 import Content from "../components/Content/Content";
 
-export default function HomePage() {
+export default function Home() {
     return (
         <div>
-            <Navigation/>
+            {/*<Navigation/>
             <Content/>
 
             <Navigation language="Java">
@@ -15,7 +15,8 @@ export default function HomePage() {
             </Navigation>
             <Navigation language="Python"/>
             <Navigation language="PHP"/>
-            <Navigation language="C++" lan="C#"/>
+            <Navigation language="C++" lan="C#"/>*/}
+            <h1>Home</h1>
         </div>
     );
 }
