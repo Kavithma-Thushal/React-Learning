@@ -11,6 +11,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 
+function btnSaveCustomer() {
+    console.log("Customer Saved!");
+}
+
 function App() {
     return (
         <BrowserRouter>
@@ -86,10 +90,6 @@ function App() {
 
         </div>*/
     );
-}
-
-function btnSaveCustomer() {
-    console.log("Customer Saved!");
 }
 
 export default App;
