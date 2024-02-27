@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation/Navigation";
 import Content from "../components/Content/Content";
+import {Link} from "react-router-dom";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <Navigation language="PHP"/>
             <Navigation language="C++" lan="C#"/>*/}
             <h1>Home</h1>
+            <Link to="/about">Go to About Page</Link>
         </div>
     );
 }
