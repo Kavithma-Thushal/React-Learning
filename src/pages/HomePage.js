@@ -7,11 +7,15 @@ export default function HomePage() {
             <Navigation/>
             <Content/>
 
-            {/*<Navigation language="Java"/>
-            <Navigation language="JavaScript"/>
+            <Navigation language="Java">
+                <span>This is the Description</span>
+            </Navigation>
+            <Navigation language="JavaScript">
+                <button>Button</button>
+            </Navigation>
             <Navigation language="Python"/>
             <Navigation language="PHP"/>
-            <Navigation language="C++" lan="C#"/>*/}
+            <Navigation language="C++" lan="C#"/>
         </div>
     );
 }

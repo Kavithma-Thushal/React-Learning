@@ -14,8 +14,9 @@ export default function Navigation(props) {
     return (
         <div>
             <div id="navBar">
-                <h2 id="navText">{logo + customer}</h2>
-                {/*<h2 id="navText">My Favourite language is {props.language+props.lan}</h2>*/}
+                {/*<h2 id="navText">{logo + customer}</h2>*/}
+                <h2 id="navText">My Favourite language is {props.language+props.lan}</h2>       {/*{props.Parent}*/}
+                {props.children}
             </div>
         </div>
     );
