@@ -84,7 +84,7 @@ here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-
 
 ## My Content
 
-* SetUp React
+* React Setup
 * Introduction
 * CSS for React
 * Dynamic Components
