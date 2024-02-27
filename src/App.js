@@ -13,7 +13,7 @@ import ContactUs from "./pages/ContactUs";
 
 function App() {
     return (
-        /*<Router>
+        <Router>
             <div>
                 <Switch>
 
@@ -31,8 +31,8 @@ function App() {
 
                 </Switch>
             </div>
-        </Router>*/
-        <div>
+        </Router>
+        /*<div>
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
                 <Container>
                     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -96,7 +96,7 @@ function App() {
 
             <Button id="saveCustomer" variant="primary" onClick={btnSaveCustomer}>Save Customer</Button>
 
-        </div>
+        </div>*/
     );
 }
 
