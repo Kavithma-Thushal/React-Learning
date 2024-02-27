@@ -93,3 +93,5 @@ here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-
 * React Bootstrap
 * Event Handling
 * React Router Version 6
+* React Use State
+* React Use Effect
