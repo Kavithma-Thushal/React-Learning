@@ -92,3 +92,4 @@ here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-
 * React Router
 * React Bootstrap
 * Event Handling
+* React Router Version 6

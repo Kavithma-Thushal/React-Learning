@@ -1,8 +1,10 @@
-import Navigation from "../components/Navigation/Navigation";
 import Content from "../components/Content/Content";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import './Contacts'
 
 export default function Home() {
+    const Navigate = useNavigate();
     return (
         <div>
             {/*<Navigation/>
@@ -19,6 +21,8 @@ export default function Home() {
             <Navigation language="C++" lan="C#"/>*/}
             <h1>Home</h1>
             <Link to="/about">Go to About Page</Link>
+            <br/>
+            <Button variant="primary" onClick={() => Navigate("/contacts")}>Contacts</Button>
         </div>
     );
 }
