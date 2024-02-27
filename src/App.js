@@ -30,27 +30,31 @@ function App() {
             <h1>React Bootstrap</h1>
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Accordion Item #1</Accordion.Header>
+                    <Accordion.Header>Customer Management</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Customer management involves the strategic and operational activities undertaken by businesses
+                        to build and maintain relationships with their customers throughout the entire customer
+                        lifecycle. This multifaceted process encompasses various aspects such as understanding customer
+                        needs and preferences, acquiring new customers, retaining existing ones, providing exceptional
+                        customer service, and fostering loyalty. Effective customer management involves utilizing tools
+                        like customer relationship management (CRM) software, implementing personalized marketing
+                        strategies, actively engaging with customers through multiple channels, and continuously
+                        analyzing feedback to improve products and services. By prioritizing customer satisfaction and
+                        loyalty, businesses can enhance their reputation, increase customer lifetime value, and
+                        ultimately drive sustainable growth.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                    <Accordion.Header>Item Management</Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Item Management involves the strategic and operational activities undertaken by businesses to
+                        manage their inventory throughout the entire item lifecycle. This comprehensive process includes
+                        aspects such as understanding item demand and trends, procuring new items, managing existing
+                        ones, ensuring optimal stock levels, and enhancing item quality. Effective item management
+                        entails utilizing tools like inventory management software, implementing efficient procurement
+                        strategies, actively monitoring item performance, and continuously analyzing market feedback to
+                        improve offerings. By prioritizing item quality and demand, businesses can optimize their
+                        inventory turnover, reduce carrying costs, and ultimately drive sustainable profitability.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
