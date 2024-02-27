@@ -6,32 +6,20 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
-import AboutMe from "./pages/AboutMe";
-import ContactUs from "./pages/ContactUs";
+import About from "./pages/About";
+import Contacts from "./pages/Contacts";
 
 function App() {
     return (
-        <Router>
-            <div>
-                <Switch>
-
-                    <Route exact path="/">
-                        <Home/>
-                    </Route>
-
-                    <Route path="/about">
-                        <AboutMe/>
-                    </Route>
-
-                    <Route path="/contact">
-                        <ContactUs/>
-                    </Route>
-
-                </Switch>
-            </div>
-        </Router>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home/>}></Route>
+                <Route path="/about" element={<About/>}></Route>
+                <Route path="/contacts" element={<Contacts/>}></Route>
+            </Routes>
+        </BrowserRouter>
         /*<div>
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
                 <Container>
