@@ -94,10 +94,14 @@ function App() {
                 </Accordion.Item>
             </Accordion>
 
-            <Button id="saveCustomer" variant="primary">Save Customer</Button>
+            <Button id="saveCustomer" variant="primary" onClick={btnSaveCustomer}>Save Customer</Button>
 
         </div>
     );
+}
+
+function btnSaveCustomer() {
+    console.log("Customer Saved!");
 }
 
 export default App;

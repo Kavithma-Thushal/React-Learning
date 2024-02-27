@@ -91,3 +91,4 @@ here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-
 * Props Handling
 * React Router
 * React Bootstrap
+* Event Handling
