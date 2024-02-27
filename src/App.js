@@ -14,11 +14,11 @@ function App() {
                         <Home/>
                     </Route>
 
-                    <Route path="/AboutMe">
+                    <Route path="/aboutme">
                         <AboutMe/>
                     </Route>
 
-                    <Route path="/ContactUs">
+                    <Route path="/contactus">
                         <ContactUs/>
                     </Route>
 
