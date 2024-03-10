@@ -94,4 +94,4 @@ here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-
 * Event Handling
 * React Router Version 6
 * React Use State
-* React Use Effect
+* React Use Effect.
